@@ -1,0 +1,29 @@
+{
+  "name": "authgateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "redis-test": "node redis.js",
+    "server": "node --harmony server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diluent/AuthGateWay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diluent/AuthGateWay/issues"
+  },
+  "homepage": "https://github.com/diluent/AuthGateWay#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "mssql": "^3.3.0",
+    "oauth": "^0.9.14",
+    "redis": "^2.6.2"
+  }
+}
